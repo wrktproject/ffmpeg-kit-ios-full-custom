@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.module_name      = 'ffmpegkit'
 
   s.source = {
-    :http => 'https://github.com/wrktproject/ffmpeg-kit-ios-full-custom/releases/download/v6.0.3/ffmpeg-kit-full-6.0.3-ios-xcframework.zip'
-  }
+  :http => 'https://github.com/wrktproject/ffmpeg-kit-ios-full-custom/releases/download/v6.0.3/ffmpeg-kit-ios-full.zip'
+}
 
   s.vendored_frameworks = 'ffmpeg-kit-ios-full/*.xcframework'
 end
